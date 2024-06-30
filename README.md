@@ -27,7 +27,7 @@ This Terraform project sets up a basic AWS infrastructure including a VPC with p
    - Install Terraform and configure AWS credentials with appropriate permissions.
 
 2. **Configuration**:
-   - Modify `variables.tf` to adjust variables like AWS region, VPC CIDR blocks, etc., if needed.
+   - Modify `main.tf` to adjust variables like AWS region, VPC CIDR blocks, etc., if needed.
    - Ensure the correct AMI ID is used for the Ubuntu image in `modules/ec2_autoscaling/main.tf`.
 
 3. **Deployment**:

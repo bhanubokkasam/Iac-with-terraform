@@ -32,18 +32,22 @@ This Terraform project sets up a basic AWS infrastructure including a VPC with p
 
 3. **Deployment**:
    - Initialize Terraform:
-     ```     terraform init
+     ```
+     terraform init
      ```
    - Plan the deployment to verify the changes:
-     ```     terraform plan
+     ```
+     terraform plan
      ```
    - Apply the configuration to create the infrastructure:
-     ```     terraform apply
+     ```
+     terraform apply
      ```
 
 4. **Cleanup**:
    - To destroy the created resources:
-     ```     terraform destroy
+     ```
+     terraform destroy
      ```
    - Confirm destruction by typing `yes` when prompted.
 
